@@ -1,0 +1,19 @@
+index:
+    path: /
+    controller: 
+         resource: '../templates/index.html'
+
+welcome:
+    path: /api/welcome
+    controller: App\Controller\MainController::main_welcome
+    
+
+users_all:
+    path: /api/users
+    controller: App\Controller\MainController::get_all_users
+users_by_login:
+    path: /api/users/{login}
+    controller: App\Controller\MainController::get_all_users_by_login
+users_data:
+    path: /api/users_data
+    controller: App\Controller\MainController::get_all_users_by_data
