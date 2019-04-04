@@ -1,9 +1,43 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Tab Two
+      Favorites
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="8" offset="2">
+        <ion-card class="ion-margin" class="ion-text-center" *ngFor="let city of data">
+
+          <ion-card-header class="ion-margin" class="ion-text-center">
+            <ion-card-subtitle class="ion-text-center">City</ion-card-subtitle>
+            <ion-card-title class="ion-text-center"> {{  city.name}} | {{city.country}}
+            </ion-card-title>
+
+
+          </ion-card-header>
+          <ion-item *ngIf="city.weather?.list">
+
+
+            <ion-card-content class="ion-text-center" class="ion-margin" *ngFor="let li of city.weather.list">
+
+
+
+              {{li.main.temp}}
+
+
+
+            </ion-card-content>
+          </ion-item>
+
+
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
