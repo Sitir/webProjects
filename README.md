@@ -2,7 +2,7 @@
 
 <p align="center">
 
-  ![Screen](https://imgur.com/a/HjAWvLs)
+ <img src="https://i.imgur.com/Rpru0hy.png" width="400" height="520">
 </p>
 
 
