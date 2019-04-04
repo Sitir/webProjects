@@ -1,7 +1,8 @@
 ## Weather App build in Ionic (Without Cordova)
 
 <p align="center">
-<img src="https://imgur.com/a/HjAWvLs" width="300" height="400"/>
+
+  ![Screen](https://imgur.com/a/HjAWvLs)
 </p>
 
 
