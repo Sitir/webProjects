@@ -13,7 +13,7 @@ interface Temp_Data {
 })
 export class ServiceService {
 
-  readonly api_key = 'eecf1fdd445bbf00118d74ed3c9272ae';
+  readonly api_key = '';
   public data: any = null;
 
   public countries: any = null;
