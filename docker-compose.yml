@@ -1,0 +1,24 @@
+version: '2'
+services:
+    myadmin:
+        image: phpmyadmin/phpmyadmin
+        container_name: phpmyadmin
+        ports:
+            - "8070:80"
+        environment:
+            - PMA_ARBITRARY=1
+            - PMA_HOST=mysql
+        restart: always
+        depends_on:
+            - mysqldb
+    mysqldb:
+        image: mysql:5.7.24
+        container_name: mysql
+        restart: always
+        environment:
+            - MYSQL_DATABASE=app
+            - MYSQL_ROOT_PASSWORD=toor
+            - MYSQL_USER=user
+            - MYSQL_PASSWORD=user
+        ports:
+            - "8989:3306"
