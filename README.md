@@ -128,7 +128,7 @@ you cannot control the parsing of the data.<br/>
 
 #### Express.js as one function
 
-In such approach you might use single function to run mutiple routes of one functions:
+In such approach you might use single function to run mutiple routes(url paths) on the one functions:
 ```sh
 firebaseURL/function/ExpressRoutes[users, posts, addpost, register, ]
 ```
@@ -150,13 +150,13 @@ app.get('/posts', (request, response) => {
     response.send({'Hello from Express based App'});
 })
 
-export const exppressBasedFunction = functions.https.onRequest(app )
+export const exppressBasedFunction = functions.https.onRequest(app);
 
 ```
 
 
 
-# Cors, Origin, localhost, getting data
+# Cors, Origin, localhost
 We can test localy but you need to set up admin-sdk of firebase localy.<br/>
 But to do it you need to download emulator for that.<br/>
 <br/>
@@ -165,14 +165,14 @@ I worked just on Mac and Linux based Os, on Windows you need to add this line to
 
 ```sh
 #GOOGLE FIREBASE FUNCTIONS
-export GOOGLE_APPLICATION_CREDENTIALS="/home/patryk/json/CREDENTIALS.json"
+export GOOGLE_APPLICATION_CREDENTIALS="PATH_TO_THE_FILE/CREDENTIALS.json"
 ```
 
 
 <br/>
 How to obtain such file go to: 
 <br/>
-> [Genrate Credentials](https://console.cloud.google.com/apis/credentials/serviceaccountkey)
+> [Generate Credentials](https://console.cloud.google.com/apis/credentials/serviceaccountkey)
 
 Select project -> generate json file for admin-sdk (everything) -> download and put to the folder (somewhere save) and copy path and put it back<br/>
 to the ~/.bashrc or PATH on windows.<br/>
@@ -182,7 +182,7 @@ Once you have that you can run command but from "project/functions/src" where th
 npm run serve      OR        firebase emulators:start
 ```
 
-#### Cors testing from other frontend frameworks
+#### Cors testing from other frontend frameworks/localhost
 You can use:
 <br/>
 ```sh
@@ -191,11 +191,11 @@ const cors = require('cors');
 export const myFirstFunction = functions.https.onRequest( (req, res)  => {
 
 
-    //First Approch not good, just for testing or if you want that any has acces to function
+    //First approach not good, just for testing or if you want that any one has access to function
     res.set('Access-Control-Allow-Origin','*'); 
 
 
-    //Second approch use express cors, make sure to import or require cors at the top
+    //Second approach use express cors, make sure to import or require cors at the top
     return cors(req, res, () => {
             //your code here
     });
@@ -209,6 +209,13 @@ export const myFirstFunction = functions.https.onRequest( (req, res)  => {
 
 
 ```
+
+<br/>
+<br/>
+###To get more functionality with others Firebase applications, check out documentations.
+In the index.ts you can finde source code with comments as guide what you can do with the Firebase functions.
+
+
 
 
 
