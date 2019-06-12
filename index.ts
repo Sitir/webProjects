@@ -70,6 +70,19 @@ const methodPost = ( request:any, response:any) => {
 }
 
 
+export const authenticateUser = functions.https.onRequest((req,res) =>{
+
+
+    /// code to authenticate or redirect 
+    res.redirect(307, '/test');
+
+   /*307 Temporary Redirect (since HTTP/1.1) In this occasion, the request should be repeated with another URI, but future requests 
+   can still use the original URI.2 In contrast to 303, the request method should not be changed when reissuing the original request. 
+   For instance, a POST request must be repeated using another POST request.  */
+
+})
+
+
 export const loginUser = functions.https.onRequest( async (req, res) => {
     res.set('Access-Control-Allow-Origin','*'); 
     let user:any;
