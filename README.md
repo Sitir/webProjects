@@ -57,7 +57,7 @@ npm install --save firebase-functions@latest
 ```
 
 #### Folder Structure and files:
-
+```sh
 myproject
  +- .firebaserc    # Hidden file that helps you quickly switch between
  |                 # projects with `firebase use`
@@ -74,7 +74,7 @@ myproject
       |
       +- node_modules/ # directory where your dependencies (declared in
                        # package.json) are installed
-
+```
 
 
 
