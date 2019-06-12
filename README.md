@@ -5,11 +5,11 @@ Informations about functions on Firebase/GoogleCloud
 -- Make sure to have installed Node.js and npm package management tool.<br/>
 
 
-**Informations about  functionality of Firebase functions**
--- can be used to modified sendend image to storage to resize/cut/edit/change color via other plugins from npm package
--- can operate on realtime database from Firebase 
--- can be use as authentication server 
--- can be used as micro-service
+**Informations about  functionality of Firebase functions** <br/>
+-- can be used to modified sendend image to storage to resize/cut/edit/change color of images via other plugins from npm packages<br/>
+-- can operate on realtime database from Firebase <br/>
+-- can be use as authentication server <br/>
+-- can be used as micro-service<br/>
 
 
 ### Install FirebaseCLI
@@ -112,16 +112,22 @@ export const myFirstFunction = functions.https.onRequest( (req, res)  => {
 
 ```
 <br/>
-**Firebase functions use Express.js Framework based on Node.js Http Request-Response.**<br/>
+**Firebase functions use Express.js Framework based on Node.js Http Request-Response.** <br/>
+
 -- read more -> [Express.js Documentation v.4.0](http://expressjs.com/en/api.html#express)
+
 <br/>
-##### Parsing data Post/Get/Options etc Methods.
+
+#### Parsing data Post/Get/Options etc Methods.
+
 <br/>
-All requests to HTTPS triggered Cloud Functions are automatically parsed by Cloud Functions with an Express Body Parser before <br/>
-the request reaches your code in the function. So even if you define your parser and middleware through Express,<br/>
-it’s still already automatically parsed. And you can’t explicitly define the parser that is used by Cloud Functions, <br/>
-the content-type of the request dictates that, as documented here. Thus, if you do not control the calling environment,<br/>
-you cannot control the parsing of the data.<br/>
+All requests to HTTPS triggered Cloud Functions are automatically parsed by Cloud Functions with<br/>
+an Express Body Parser before the request reaches your code in the function. <br/>
+So even if you define your parser and middleware through Express, <br/>
+it’s still already automatically parsed. And you can’t explicitly define the parser  <br/>
+that is used by Cloud Functions, the content-type of the request dictates that, as documented here.  <br/>
+Thus, if you do not control the calling environment, <br/>
+you cannot control the parsing of the data. <br/>
 <br/>
 
 
@@ -172,10 +178,12 @@ export GOOGLE_APPLICATION_CREDENTIALS="PATH_TO_THE_FILE/CREDENTIALS.json"
 <br/>
 How to obtain such file go to: 
 <br/>
-> [Generate Credentials](https://console.cloud.google.com/apis/credentials/serviceaccountkey)
+[Generate Credentials](https://console.cloud.google.com/apis/credentials/serviceaccountkey)
 
-Select project -> generate json file for admin-sdk (everything) -> download and put to the folder (somewhere save) and copy path and put it back<br/>
-to the ~/.bashrc or PATH on windows.<br/>
+<br/>
+
+Select project -> generate json file for admin-sdk (everything) -> download and put to the folder (somewhere save) and copy <br/>
+path and put it back to the ~/.bashrc or PATH on windows.<br/>
 <br/>
 Once you have that you can run command but from "project/functions/src" where the package.json is:
 ```sh
@@ -212,7 +220,9 @@ export const myFirstFunction = functions.https.onRequest( (req, res)  => {
 
 <br/>
 <br/>
-###To get more functionality with others Firebase applications, check out documentations.
+
+### To get more functionality with others Firebase applications, check out documentations.
+
 In the index.ts you can finde source code with comments as guide what you can do with the Firebase functions.
 
 
