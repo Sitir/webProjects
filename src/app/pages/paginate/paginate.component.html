@@ -1,0 +1,9 @@
+<div class="paginate">
+  <div class="left-arrow">
+    <button [disabled]="checkFirstPage()" (click)="previousPage()" class="button-primary"><</button>
+  </div>
+  <div class="paginate-page-number" *ngFor="let i of getPageElements()" ><a class="page-number" [ngClass]="{'selectedPage': currentPage === i }" (click)="getPage(i)">{{i}}</a></div>
+  <div class="right-arrow">
+    <button [disabled]="checkLastPage()" (click)="nextPage()" class="button-primary">></button>
+  </div>
+</div>

@@ -1,0 +1,27 @@
+<ngx-spinner bdColor="#ccccff"></ngx-spinner>
+
+<div class="container">
+  <div class="header">
+    <nav>
+      <div class="link">
+        <a routerLink="/home" routerLinkActive="active">Home</a>
+      </div>
+      <div class="link">
+        <a>Test</a>
+      </div>
+
+
+    </nav>
+
+
+  </div>
+  <app-info-banner  [@showBanner]="bannerDisplay? 'hide' : 'show'" (click)="hideBanner()" [message]="message"
+                   [type]="typeMessage"></app-info-banner>
+
+  <div class="content">
+
+    <router-outlet></router-outlet>
+
+  </div>
+  <div class="footer"> Footer Area</div>
+</div>

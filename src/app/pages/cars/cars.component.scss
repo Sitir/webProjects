@@ -1,0 +1,72 @@
+
+.home-cars-page {
+  margin: 2vh;
+  display: flex;
+
+  border: 1px solid grey;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-height: 80%;
+}
+
+.row-one {
+  flex: 1;
+  padding: 2vh;
+  border-right: 1px solid grey;
+
+
+
+  table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    word-wrap: break-word;
+    width: 100%;
+
+    min-height: 650px;
+  }
+
+  tr {
+    padding: 2px;
+    text-align: center;
+  }
+
+  tbody tr:hover {
+    cursor: pointer;
+    background-color: #084570 !important;
+    color: white;
+  }
+
+  td {
+    text-align: center;
+    padding: 1.5vh;
+    word-wrap: break-word;
+  }
+
+  tr:nth-child(2n) {
+    background-color: #a1d9ff;
+  }
+
+  .paginate-page-number {
+    align-self: center;
+  }
+
+  .selectedCel {
+    background-color: #0f202b !important;
+    color: white;
+  }
+}
+
+.row-two {
+  flex: 1;
+  padding: 2vh;
+
+  .buttons-manager {
+    margin: 3px;
+    padding: 3px;
+  width: 100%;
+    button{
+      width: 100%;
+    }
+  }
+}
+

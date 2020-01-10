@@ -1,0 +1,48 @@
+:host{
+
+
+}
+
+.paginate {
+  display: inline-flex;
+  justify-content: center;
+  margin-top:8px;
+  width: 100%;
+
+  .left-arrow {
+    flex-grow: 1;
+
+    button {
+      padding: 0.6em;
+    }
+  }
+
+  .paginate-page-number {
+    flex-grow: 2;
+    padding: 0.6em;
+  }
+
+  .right-arrow {
+
+    margin-right: 0;
+
+
+    button {
+      padding: 0.6em;
+    }
+  }
+  .page-number{
+    cursor: pointer;
+    padding:4px;
+    background-color: #a1d9ff;
+  }
+  .page-number:hover{
+    background-color: #084570 !important;
+    color: white;
+  }
+
+  .selectedPage{
+    background-color: #0f202b !important;
+    color: white;
+  }
+}

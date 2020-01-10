@@ -1,0 +1,44 @@
+:host {
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  left:20%;
+  top:5%;
+  right: 20%;
+  z-index: 5;
+  opacity: 0;
+}
+
+:host > div {
+  text-align: center;
+  position: relative;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid black;
+  border-radius: .25rem;
+
+}
+
+.positive {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.error {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+.warning {
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+}
+
+.info{
+  color: #383d41;
+  background-color: #e2e3e5;
+  border-color: #d6d8db;
+}

@@ -1,0 +1,19 @@
+<form [formGroup]="carForm" (ngSubmit)="save()">
+  <div class="form-data">
+    <label>Model</label> <input type="text" formControlName="car_model" (keypress)="keyActiveButton()"/>
+  </div>
+  <div class="form-data">
+    <label>Fabricant </label> <input type="text" formControlName="car_fabricant" (keypress)="keyActiveButton()"/>
+  </div>
+  <div class="form-data">
+    <label>Email </label><input type="email" formControlName="email" (keypress)="keyActiveButton()"/>
+  </div>
+  <div class="form-data">
+
+  </div>
+  <div class="form-data">
+    <label>Production</label> <input placeholder="year 1990" type="number" formControlName="year_production" (keypress)="keyActiveButton()"/>
+  </div>
+  <button [disabled]="disabledSave" [ngClass]="{'disabled-button': disabledSave}" class="button" type="submit">Save
+  </button>
+</form>

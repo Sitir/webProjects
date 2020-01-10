@@ -1,0 +1,27 @@
+<div class="form-manger">
+  <form [formGroup]="carForm" (ngSubmit)="save()">
+    <div class="form-data">
+      <label>Model</label> <input type="text" formControlName="car_model" (keypress)="keyActiveButton()"/>
+    </div>
+    <div class="form-data">
+      <label>Fabricant </label> <input type="text" formControlName="car_fabricant" (keypress)="keyActiveButton()"/>
+    </div>
+    <div class="form-data">
+      <label>Email </label><input type="email" formControlName="email" (keypress)="keyActiveButton()"/>
+    </div>
+    <div class="form-data">
+
+    </div>
+    <div class="form-data">
+      <label>Production</label> <input type="number" formControlName="year_production" (keypress)="keyActiveButton()"/>
+    </div>
+    <button [disabled]="disabledSave" [ngClass]="{'disabled-button': disabledSave}" class="button" type="submit">Save
+    </button>
+  </form>
+</div>
+<div class="group-manager">
+  <button class="button-primary delete" cl (click)="deleteCar()"> Delete Car</button>
+
+
+</div>
+

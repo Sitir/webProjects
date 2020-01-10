@@ -1,0 +1,37 @@
+<div class="home-cars-page">
+
+
+  <div class="row-one">
+    <table>
+      <thead>
+      <tr>
+        <th>Id</th>
+        <th>Model</th>
+        <th>Fabricant</th>
+        <th>Year Of Production</th>
+
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let car of getCars()  ; let i=index" [ngClass]="{'selectedCel': index === i }"
+          (click)="showDetails(i)">
+        <td>{{car.id}}</td>
+        <td>{{car.car_model}}</td>
+        <td>{{car.car_fabricant}}</td>
+        <td>{{car.year_production}}</td>
+
+      </tr>
+      </tbody>
+    </table>
+    <app-paginate [pageCount]="  pagesCounter" (update)="paginate($event)"></app-paginate>
+  </div>
+
+  <div class="row-two">
+    <div class="buttons-manager">
+      <button class="button-primary" *ngIf="viewDetails" (click)="addCar()">Insert Car</button>
+    </div>
+    <app-single-car [@slideIn]="currentSelectedCar" [car]="currentSelectedCar" (update)="changedCar($event)"
+                    *ngIf="viewDetails"></app-single-car>
+    <app-create-car (createNewCar)="newCar($event)" *ngIf="!viewDetails"></app-create-car>
+  </div>
+</div>
