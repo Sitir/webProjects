@@ -1,0 +1,57 @@
+[{
+  "id": 1,
+  "shopName": "Wikizz",
+  "street": "549 Johnson Park",
+  "city": "Ireland",
+  "phone_number": "361 146 1463",
+  "post_code": "A84",
+  "country": "France"
+}, {
+  "id": 2,
+  "shopName": "Lajo",
+  "street": "86 Fairfield Street",
+  "city": "Ireland",
+  "phone_number": "697 404 2438",
+  "post_code": "P81",
+  "country": "Tajikistan"
+}, {
+  "id": 3,
+  "shopName": "Trupe",
+  "street": "8 Mcguire Center",
+  "city": "Yemen",
+  "phone_number": "844 749 2796",
+  "post_code": null,
+  "country": "Indonesia"
+}, {
+  "id": 4,
+  "shopName": "Edgepulse",
+  "street": "60989 Gerald Circle",
+  "city": "Burkina Faso",
+  "phone_number": "562 776 1619",
+  "post_code": null,
+  "country": "Brazil"
+}, {
+  "id": 5,
+  "shopName": "Devcast",
+  "street": "1070 Lakeland Drive",
+  "city": "Colombia",
+  "phone_number": "996 889 0482",
+  "post_code": "706037",
+  "country": "Russia"
+}, {
+  "id": 6,
+  "shopName": "Trunyx",
+  "street": "97756 Golf Course Plaza",
+  "city": "Brazil",
+  "phone_number": "520 416 5391",
+  "post_code": "76100-000",
+  "country": "Mexico"
+}, {
+  "id": 7,
+  "shopName": "Fivespan",
+  "street": "71147 Hansons Point",
+  "city": "United Kingdom",
+  "phone_number": "209 206 2451",
+  "post_code": "DN22",
+  "country": "Indonesia"
+}]

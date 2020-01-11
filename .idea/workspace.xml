@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="661e15d0-913c-45dc-9282-c586c36c5f5e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1V81IMkOA3PqGc4Sx61CxpY1XXc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.13.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pc\WebstormProjects\shop\data" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="661e15d0-913c-45dc-9282-c586c36c5f5e" name="Default Changelist" comment="" />
+      <created>1576619827285</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576619827285</updated>
+      <workItem from="1576619835254" duration="6899000" />
+      <workItem from="1576793421362" duration="7335000" />
+      <workItem from="1576969809775" duration="5654000" />
+      <workItem from="1577052458289" duration="1426000" />
+      <workItem from="1577054143248" duration="3690000" />
+      <workItem from="1577127807122" duration="3016000" />
+      <workItem from="1577307868593" duration="1256000" />
+      <workItem from="1577749927965" duration="5707000" />
+      <workItem from="1577798652488" duration="3801000" />
+      <workItem from="1577927113536" duration="1267000" />
+      <workItem from="1578007496085" duration="734000" />
+      <workItem from="1578168339018" duration="7247000" />
+      <workItem from="1578344674582" duration="7041000" />
+      <workItem from="1578592019076" duration="3696000" />
+      <workItem from="1578693661831" duration="630000" />
+      <workItem from="1578694403463" duration="167000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../shopManger/node_modules/karma/config.tpl.js" />
+      </list>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="709" y="274" key="FileChooserDialogImpl" timestamp="1578693676565">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="709" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1578693676565" />
+    <state x="709" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577798657096" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1576622043093">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1576622043093" />
+    <state x="616" y="242" key="run.anything.popup" timestamp="1576624032599">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1576624032599" />
+    <state x="911" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1577811254749">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="911" y="257" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1577811254749" />
+    <state x="911" y="257" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1576794596047" />
+  </component>
+</project>
