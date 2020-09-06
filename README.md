@@ -47,3 +47,12 @@ git merge --no-ff branchName
 
 * Rember to check on which branch you are working on!
 
+
+### Git remote
+Used for setting the url for pull/push.  
+  
+Add new remote:
+```
+git remote add NAME PATH_TO_REPOSITORY_REMOTE
+
+
