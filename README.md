@@ -1,6 +1,6 @@
-#Git Helpers commands/explanations
+# Git Helpers commands/explanations
 
-#####Git add
+##### Git add
 
 To add all files to stage: 
 ```
@@ -15,7 +15,7 @@ Check status of not commited/commited files:
 ```
 git status
 ```
-######Git Branch
+###### Git Branch
 Display branches:
 ```
 git branch
@@ -33,7 +33,7 @@ git checkout -b NAME_OF_BRANCH
 
 
 
-######Git merge
+###### Git merge
 
 merge master with branch  worked on:
 ```
